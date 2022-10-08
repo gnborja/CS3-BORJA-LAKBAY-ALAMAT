@@ -1,1 +1,48 @@
-body {background-color: coral;}
+#heading1 {
+  background-color: coral;
+  padding:1px;
+  position: fixed;
+  width:100%;
+}
+
+#sidebar {
+  background-color: #f5bca8;
+  position: fixed;
+  padding: 10px;
+  z-index:0;
+  top:81.5px;
+  height:100%;
+  list-style: none;
+  color:white;
+}
+p{
+  background-color:#c19281;
+}
+#sidebar li a:hover{
+  background-color: pink;
+}
+#hpB{
+  background-color: #6f494f;
+}
+
+#hpB{
+  color: white;
+  text-decoration:none;
+  background-color:#6f494f;
+}
+
+#mm{
+  color: #6f494f;
+  text-decoration:none;
+  background-color: #f5bca8;
+}
+#au{
+  background-color: #f5bca8;
+  color: #6f494f;
+  text-decoration:none;
+}
+#body{
+  z-index:0;
+  padding:25%;
+}
+
