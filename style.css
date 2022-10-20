@@ -5,6 +5,13 @@
   width: 100%; 
   height:15%;
   }
+#heading1 h1{
+  position:absolute;
+  top:5px;
+}
+#heading1 img{
+  padding-left:10px;
+}
 #sidebar{
   list-style-type: none;
   margin: 0;
@@ -56,6 +63,53 @@ margin-bottom:0;
 
 }
 p{
+  font-family:"Consolas";
   width:100%;
+  text-align:center;
+  display:inline;
+}
+table{
+  padding-top:5%;
+  padding-left:5%;
+}
+table td>div{
+  padding-left:5%;
+  padding-bottom:5%;
+
+}
+tr td>image{
+  padding-top:5%;
 }
 
+#hai{
+  font-family:"Ink Free";
+  color:white;
+  display:inline;
+}
+#help{
+  position:absolute;
+  width:15%;
+  right:2%;
+  top:33px;
+  height:20px;
+}
+table tr td>h6{
+  margin-top:0;
+}
+
+table tr td div >span p{
+  text-decoration:bold;
+  color:#77966D;
+  font-family:"Consolas";
+}
+#ewan{
+  padding-left:10px;
+}
+a{
+  background-color:#E2EFDE;
+  text-decoration:none;
+  color:#2b1408;
+}
+a:hover{
+  color:#abcdef;
+}
