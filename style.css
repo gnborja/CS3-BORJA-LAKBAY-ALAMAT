@@ -117,3 +117,16 @@ div>div>div{
   width: 50%;
 }
 
+table>tr>td>div p{
+  font-family:"Consolas";
+  width:100%;
+  text-align:center;
+  display:inline;
+}
+.ok{
+  vertical-align: text-top;
+}
+.last{
+  vertical-align: text-top;
+  padding-left:2%;
+}
